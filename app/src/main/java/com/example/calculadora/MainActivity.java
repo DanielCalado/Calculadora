@@ -40,84 +40,84 @@ public class MainActivity extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
-        Button botaoUm = binding.botaoUm;
+        Button botaoUm = binding.botao01;
         botaoUm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar("1");
             }
         });
-        Button botaoDois = binding.botaoDois;
+        Button botaoDois = binding.botao02;
         botaoDois.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar("2");
             }
         });
-        Button botaoTres = binding.botaoTres;
+        Button botaoTres = binding.botao03;
         botaoTres.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar("3");
             }
         });
-        Button botaoQuatro = binding.botaoQuatro;
+        Button botaoQuatro = binding.botao04;
         botaoQuatro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar("4");
             }
         });
-        Button botaoCinco = binding.botaoCinco;
+        Button botaoCinco = binding.botao05;
         botaoCinco.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar("5");
             }
         });
-        Button botaoSeis = binding.botaoSeis;
+        Button botaoSeis = binding.botao06;
         botaoSeis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar("6");
             }
         });
-        Button botaoSete = binding.botaoSete;
+        Button botaoSete = binding.botao07;
         botaoSete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar("7");
             }
         });
-        Button botaoOito = binding.botaoOito;
+        Button botaoOito = binding.botao08;
         botaoOito.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar("8");
             }
         });
-        Button botaoNove = binding.botaoNove;
+        Button botaoNove = binding.botao09;
         botaoNove.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar("9");
             }
         });
-        Button botaoZero = binding.botaoZero;
+        Button botaoZero = binding.botao00;
         botaoZero.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar("0");
             }
         });
-        Button virgula = binding.virgula;
+        Button virgula = binding.botapVirgula;
         virgula.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 contar(".");
             }
         });
-        Button multiplicacao = binding.multiplicacao;
+        Button multiplicacao = binding.botaoMultiplicacao;
         multiplicacao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
                 binding.textView.setText(tela);
             }
         });
-        Button divisao = binding.divisao;
+        Button divisao = binding.botaoDivisao;
         divisao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 binding.textView.setText(tela);
             }
         });
-        Button adicao = binding.botaoSoma;
+        Button adicao = binding.botao0Soma;
         adicao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
                 binding.textView.setText(tela);
             }
         });
-        Button subtracao = binding.subtracao;
+        Button subtracao = binding.botaoSubtracao;
         subtracao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
                 binding.textView.setText(tela);
             }
         });
-        Button igualdade = binding.igualdade;
+        Button igualdade = binding.botaoIgualdade;
         igualdade.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        Button deletar = binding.deletar;
+        Button deletar = binding.botaoDeletar;
         deletar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
